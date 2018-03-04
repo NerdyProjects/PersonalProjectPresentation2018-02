@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Personal projects, 2018-02</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <style type="text/css">
+      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+      @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+      body { font-family: 'Droid Serif'; }
+      h1, h2, h3 {
+        font-family: 'Yanone Kaffeesatz';
+        font-weight: normal;
+      }
+      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+      .license { font-size: 30% }
+      .column:first-of-type {float:left}
+      .column:last-of-type {float:right}
+
+      .split-50 .column:first-of-type {width: 50%}
+      .split-50 .column:last-of-type {width: 50%}
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+
+class: center, middle
+
+# Personal Projects
+Matthias Larisch, February 2018
+
+---
+
+# Activity
+
+![:scale 100%](contr_gitlab.png)
+![:scale 100%](contr_github.png)
+
+---
+
+# Foodsharing.de
+![:scale 100%](fsde_hackweek.jpg)
+
+---
+
+# Templates: PHP
+![:scale 100%](fsde_php.png)
+
+---
+
+# Templates: Twig
+![:scale 100%](fsde_twig.png)
+
+---
+
+# Page rendered previously
+![:scale 100%](fsde_twig_page.png)
+
+---
+
+# Page rendered via twig
+![:scale 100%](fsde_twig_page.png)
+
+---
+
+# Database: SQL directly
+![:scale 100%](fsde_sql.png)
+
+---
+
+# Database: Queries abstraced
+![:scale 100%](fsde_gateway.png)
+
+---
+
+# Dependencies injected
+![:scale 100%](fsde_di.png)
+
+---
+
+# remove global variables
+![:scale 100%](fsde_global.png)
+
+---
+
+# HouseBus: PCB v2
+![:scale 100%](hb_minipcb.png)
+
+---
+# HouseBus: Eventcount module
+![:scale 100%](hb_eventcount.png)
+
+* Water counter
+* Gas counter
+
+---
+# Relationship: Had a week off
+![:scale 100%](laurina_wandern.jpg)
+
+---
+
+
+    </textarea>
+    <script src="https://remarkjs.com/downloads/remark-latest.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_HTML&delayStartupUntil=configured" type="text/javascript"></script>
+    <script type="text/javascript">
+      remark.macros.scale = function (percentage) {
+        var url = this;
+        return '<img src="' + url + '" style="width: ' + percentage + '" />';
+      };
+      var slideshow = remark.create();
+    </script>
+  </body>
+</html>
